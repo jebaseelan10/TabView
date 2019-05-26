@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TabViewSample.ColorsView">
+    <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout HeightRequest="325" x:Name="Red" BackgroundColor="Red" HorizontalOptions="FillAndExpand">
+
+            </StackLayout>
+
+            <StackLayout HeightRequest="335" x:Name="white" BackgroundColor="White" HorizontalOptions="FillAndExpand">
+
+            </StackLayout>
+
+            <StackLayout HeightRequest="245" x:Name="Green" BackgroundColor="Green" HorizontalOptions="FillAndExpand">
+
+            </StackLayout>
+
+
+            <StackLayout HeightRequest="255" x:Name="Blue" BackgroundColor="Blue" HorizontalOptions="FillAndExpand">
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentView>
